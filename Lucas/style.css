@@ -1,0 +1,27 @@
+
+
+
+
+img {
+    width: 100%; /* Bild nimmt die volle Breite des Containers ein */
+    height: auto; /* Höhe wird automatisch angepasst, um das Seitenverhältnis beizubehalten */
+    object-fit: cover; /* Optional: Bild wird zugeschnitten, um den Container auszufüllen */
+}
+
+.margin0 {
+    margin: 0px 0px 0px 0px !important;
+    background-color: blue;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.login-container {
+    border: 1px solid gray; /* Graue Border */
+    padding: 20px; /* Innenabstand */
+    border-radius: 5px; /* Abgerundete Ecken */
+    background-color: #f8f9fa; /* Heller Hintergrund */
+}
