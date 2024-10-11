@@ -588,6 +588,10 @@ video {
   }
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -649,6 +653,10 @@ video {
 
 .h-9 {
   height: 2.25rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-full {
@@ -732,6 +740,10 @@ video {
   grid-template-rows: repeat(5, minmax(0, 1fr));
 }
 
+.place-content-center {
+  place-content: center;
+}
+
 .place-content-end {
   place-content: end;
 }
@@ -750,6 +762,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .gap-2 {
