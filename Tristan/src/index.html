@@ -7,9 +7,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-gray-100">
-    <div class="container mx-auto px-4 py-8">
-      <div class="flex justify-between  m-5">
-        <h1 class=" text-3xl font-bold align">Wochenberichtsbearbeitung</h1>
+    <div class="container mx-auto px-4 items-center py-8">
+      <div class="flex justify-between items-center m-5">
+        <h1 class="text-3xl font-bold">Wochenberichtsbearbeitung</h1>
         <img width="80" src="../assets/Logo.png" />
       </div>
       <form class="bg-white shadow-md rounded px-8 py-6">
@@ -28,115 +28,95 @@
           <textarea class="border-red-500 border-4 rounded w-full p-2 bg-red-400" rows="4">Kommentare des Ausbilders</textarea>
         </div>
         <div class="grid gap-7">
-          <div class="border rounded p-4">
+          <div class="border rounded p-4 bg-gray-200">
             <div class="flex justify-between items-center mb-2">
-              <h3 class="text-lg font-bold text-gray-700 w-3/6">Montag</h3>
+              <h3 class="text-2xl font-bold text-gray-700 w-3/6 text-right">Montag</h3>
               <span class="text-gray-700 font-bold text-end mr-3 w-2/6">Arbeitszeit gesamt:</span>
-              <input type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden" />
+              <span type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden"> 40 Stunden</span>
             </div>
             <table class="w-full">
-              <tr>
-                <th class="text-gray-700 font-bold w-5/6">Aktivität:</th>
-                <th class="text-gray-700 font-bold w-1/6">Stunden:</th>
-              </tr>
-              <tr>
-                <td>
+              <tr class="w-full">
+                <td class="w-5/6">
                   <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Aktivität" />
                 </td>
-                <td>
+                <td class="w-1/6">
                   <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Stunden" />
                 </td>
               </tr>
             </table>
-            <div class="bg-slate-200 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
+            <div class="bg-slate-300 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
           </div>
-          <div class="border rounded p-4">
+          <div class="border rounded p-4 bg-gray-200">
             <div class="flex justify-between items-center mb-2">
-              <h3 class="text-lg font-bold text-gray-700 w-3/6">Dienstag</h3>
+              <h3 class="text-2xl font-bold text-gray-700 w-3/6 text-right">Dienstag</h3>
               <span class="text-gray-700 font-bold text-end mr-3 w-2/6">Arbeitszeit gesamt:</span>
-              <input type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden" />
+              <span type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden"> 40 Stunden</span>
             </div>
             <table class="w-full">
-              <tr>
-                <th class="text-gray-700 font-bold w-5/6">Aktivität:</th>
-                <th class="text-gray-700 font-bold w-1/6">Stunden:</th>
-              </tr>
-              <tr>
-                <td>
+              <tr class="w-full">
+                <td class="w-5/6">
                   <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Aktivität" />
                 </td>
-                <td>
+                <td class="w-1/6">
                   <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Stunden" />
                 </td>
               </tr>
             </table>
-            <div class="bg-slate-200 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
+            <div class="bg-slate-300 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
           </div>
-          <div class="border rounded p-4">
+          <div class="border rounded p-4 bg-gray-200">
             <div class="flex justify-between items-center mb-2">
-              <h3 class="text-lg font-bold text-gray-700 w-3/6">Mittwoch</h3>
+              <h3 class="text-2xl font-bold text-gray-700 w-3/6 text-right">Mittwoch</h3>
               <span class="text-gray-700 font-bold text-end mr-3 w-2/6">Arbeitszeit gesamt:</span>
-              <input type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden" />
+              <span type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden"> 40 Stunden</span>
             </div>
             <table class="w-full">
-              <tr>
-                <th class="text-gray-700 font-bold w-5/6">Aktivität:</th>
-                <th class="text-gray-700 font-bold w-1/6">Stunden:</th>
-              </tr>
-              <tr>
-                <td>
+              <tr class="w-full">
+                <td class="w-5/6">
                   <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Aktivität" />
                 </td>
-                <td>
+                <td class="w-1/6">
                   <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Stunden" />
                 </td>
               </tr>
             </table>
-            <div class="bg-slate-200 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
+            <div class="bg-slate-300 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
           </div>
-          <div class="border rounded p-4">
+          <div class="border rounded p-4 bg-gray-200">
             <div class="flex justify-between items-center mb-2">
-              <h3 class="text-lg font-bold text-gray-700 w-3/6">Donnerstag</h3>
+              <h3 class="text-2xl font-bold text-gray-700 w-3/6 text-right">Donnerstag</h3>
               <span class="text-gray-700 font-bold text-end mr-3 w-2/6">Arbeitszeit gesamt:</span>
-              <input type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden" />
+              <span type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden"> 40 Stunden</span>
             </div>
             <table class="w-full">
-              <tr>
-                <th class="text-gray-700 font-bold w-5/6">Aktivität:</th>
-                <th class="text-gray-700 font-bold w-1/6">Stunden:</th>
-              </tr>
-              <tr>
-                <td>
+              <tr class="w-full">
+                <td class="w-5/6">
                   <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Aktivität" />
                 </td>
-                <td>
+                <td class="w-1/6">
                   <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Stunden" />
                 </td>
               </tr>
             </table>
-            <div class="bg-slate-200 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
+            <div class="bg-slate-300 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
           </div>
-          <div class="border rounded p-4">
+          <div class="border rounded p-4 bg-gray-200">
             <div class="flex justify-between items-center mb-2">
-              <h3 class="text-lg font-bold text-gray-700 w-3/6">Freitag</h3>
+              <h3 class="text-2xl font-bold text-gray-700 w-3/6 text-right">Freitag</h3>
               <span class="text-gray-700 font-bold text-end mr-3 w-2/6">Arbeitszeit gesamt:</span>
-              <input type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden" />
+              <span type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden"> 40 Stunden</span>
             </div>
             <table class="w-full">
-              <tr>
-                <th class="text-gray-700 font-bold w-5/6">Aktivität:</th>
-                <th class="text-gray-700 font-bold w-1/6">Stunden:</th>
-              </tr>
-              <tr>
-                <td>
+              <tr class="w-full">
+                <td class="w-5/6">
                   <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Aktivität" />
                 </td>
-                <td>
+                <td class="w-1/6">
                   <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Stunden" />
                 </td>
               </tr>
             </table>
-            <div class="bg-slate-200 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
+            <div class="bg-slate-300 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
           </div>
         </div>
         <div class="flex items-center justify-center mt-4">
