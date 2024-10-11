@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weekly Report Processing</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+      <h1 class="text-3xl font-bold text-center mb-8">Wochenberichtsbearbeitung</h1>
+
+      <form class="bg-white shadow-md rounded px-8 py-6">
+        <div class="grid grid-cols-2 gap-4 mb-4">
+          <label class="block">
+            <span class="text-gray-700 font-bold">Ausbildungsjahr:</span>
+            <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Ausbildungsjahr" />
+          </label>
+          <label class="block">
+            <span class="text-gray-700 font-bold">Kalenderwoche:</span>
+            <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Kalenderwoche" />
+          </label>
+        </div>
+
+        <div class="border-b mb-4">
+          <textarea class="border-red-500 border-4 rounded w-full p-2 bg-red-400" rows="4">Kommentare des Ausbilders</textarea>
+        </div>
+        <div class="grid gap-7">
+          <div class="border rounded p-4">
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-lg font-bold text-gray-700 w-3/6">Montag</h3>
+              <span class="text-gray-700 font-bold text-end mr-3 w-2/6">Arbeitszeit gesamt:</span>
+              <input type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden" />
+            </div>
+            <table class="w-full">
+              <tr>
+                <th class="text-gray-700 font-bold w-5/6">Aktivität:</th>
+                <th class="text-gray-700 font-bold w-1/6">Stunden:</th>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Aktivität" />
+                </td>
+                <td>
+                  <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Stunden" />
+                </td>
+              </tr>
+            </table>
+            <div class="bg-slate-200 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
+          </div>
+          <div class="border rounded p-4">
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-lg font-bold text-gray-700 w-3/6">Dienstag</h3>
+              <span class="text-gray-700 font-bold text-end mr-3 w-2/6">Arbeitszeit gesamt:</span>
+              <input type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden" />
+            </div>
+            <table class="w-full">
+              <tr>
+                <th class="text-gray-700 font-bold w-5/6">Aktivität:</th>
+                <th class="text-gray-700 font-bold w-1/6">Stunden:</th>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Aktivität" />
+                </td>
+                <td>
+                  <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Stunden" />
+                </td>
+              </tr>
+            </table>
+            <div class="bg-slate-200 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
+          </div>
+          <div class="border rounded p-4">
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-lg font-bold text-gray-700 w-3/6">Mittwoch</h3>
+              <span class="text-gray-700 font-bold text-end mr-3 w-2/6">Arbeitszeit gesamt:</span>
+              <input type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden" />
+            </div>
+            <table class="w-full">
+              <tr>
+                <th class="text-gray-700 font-bold w-5/6">Aktivität:</th>
+                <th class="text-gray-700 font-bold w-1/6">Stunden:</th>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Aktivität" />
+                </td>
+                <td>
+                  <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Stunden" />
+                </td>
+              </tr>
+            </table>
+            <div class="bg-slate-200 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
+          </div>
+          <div class="border rounded p-4">
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-lg font-bold text-gray-700 w-3/6">Donnerstag</h3>
+              <span class="text-gray-700 font-bold text-end mr-3 w-2/6">Arbeitszeit gesamt:</span>
+              <input type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden" />
+            </div>
+            <table class="w-full">
+              <tr>
+                <th class="text-gray-700 font-bold w-5/6">Aktivität:</th>
+                <th class="text-gray-700 font-bold w-1/6">Stunden:</th>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Aktivität" />
+                </td>
+                <td>
+                  <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Stunden" />
+                </td>
+              </tr>
+            </table>
+            <div class="bg-slate-200 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
+          </div>
+          <div class="border rounded p-4">
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-lg font-bold text-gray-700 w-3/6">Freitag</h3>
+              <span class="text-gray-700 font-bold text-end mr-3 w-2/6">Arbeitszeit gesamt:</span>
+              <input type="text" class="border rounded px-3 py-2 w-1/6" placeholder="Stunden" />
+            </div>
+            <table class="w-full">
+              <tr>
+                <th class="text-gray-700 font-bold w-5/6">Aktivität:</th>
+                <th class="text-gray-700 font-bold w-1/6">Stunden:</th>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Aktivität" />
+                </td>
+                <td>
+                  <input type="text" class="border rounded px-3 py-2 w-full" placeholder="Stunden" />
+                </td>
+              </tr>
+            </table>
+            <div class="bg-slate-200 h-9 text-center text-2xl hover:text-slate-500 my-2 cursor-pointer">+</div>
+          </div>
+        </div>
+        <div class="flex items-center justify-center mt-4">
+          <input type="checkbox" class="mr-2" id="confirmation" />
+          <label for="confirmation" class="text-gray-700">Hiermit bestätige ich, dass ich alleine diesen Ausbildungsbericht verfasst habe.</label>
+        </div>
+
+        <div class="flex justify-center mt-4">
+          <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Senden</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
